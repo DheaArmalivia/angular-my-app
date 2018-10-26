@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<p>Welcome to the system {{myName}}</p>
+<div>
+  Angka ke-1:
+  <input type="number" [(ngModel)]="varAngka1" placeholder="Masukkan angka pertama"/>
+</div>
+<div>
+  Angka ke-2:
+  <input type="number" [(ngModel)]="varAngka2" placeholder="Masukkan angka kedua"/>
+</div>
+<div>
+  <button (click)="kali()">Kali</button>
+</div>
+<div>
+  Jumlah jika dikalikan adalah : {{result}}
+</div>
